@@ -1279,6 +1279,7 @@ The following settings have been applied:
 [2026.05.04-14.23.27:819][706]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/Levels/Vr_Team/9/A2/OIIXOKJCKPX1VUE9H1LCPX, a dependent package /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor was not available. Additional explanatory information follows:
 FPackageName: Skipped package /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/WallsFloorsCeilings/Floor/StaticMeshes/Floor'. Perhaps it has been deleted or was not synced?
 
+<<<<<<< HEAD
 [2026.05.04-14.23.27:819][706]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/Levels/Vr_Team/1/AB/MWN4FY2Q064WXEV30RA3K3, a dependent package /Game/WallsFloorsCeilings/CEdge3/StaticMeshes/CEdge3 was not available. Additional explanatory information follows:
 FPackageName: Skipped package /Game/WallsFloorsCeilings/CEdge3/StaticMeshes/CEdge3 has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/WallsFloorsCeilings/CEdge3/StaticMeshes/CEdge3'. Perhaps it has been deleted or was not synced?
 
@@ -4788,3 +4789,656 @@ FPackageName: Skipped package /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor
 [2026.05.04-14.24.53:533][631]LogD3D12RHI: ~FD3D12DynamicRHI
 [2026.05.04-14.24.53:584][631]LogExit: Exiting.
 [2026.05.04-14.24.53:596][631]Log file closed, 05/04/26 10:24:53
+=======
+[2026.04.27-15.51.05:784][  1]LogSourceControl: Uncontrolled asset discovery finished in 0.254698 seconds (Found 7854 uncontrolled assets)
+[2026.04.27-15.51.05:860][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/' took 0.40s
+[2026.04.27-15.51.06:033][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 4.966133
+[2026.04.27-15.51.06:036][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2026.04.27-15.51.06:037][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5.057000
+[2026.04.27-15.51.07:361][  6]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.04.27-15.51.08:030][  8]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 6.722519
+[2026.04.27-15.51.08:032][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -76150346
+[2026.04.27-15.51.08:032][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6.722519, Update Interval: 309.869690
+[2026.04.27-15.51.11:208][362]LogSlate: Took 0.000885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.04.27-15.51.13:285][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.04.27-15.51.13:287][579]LogStreaming: Display: FlushAsyncLoading(344): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.51.13:297][579]LogChaosDD: Creating Chaos Debug Draw Scene for world Vr_Team
+[2026.04.27-15.51.13:297][579]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/Vr_Team.Vr_Team'.
+[2026.04.27-15.51.13:299][579]LogWorldPartition: ULevel::OnLevelLoaded(Vr_Team)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.04.27-15.51.13:299][579]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.27-15.51.13:299][579]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/Vr_Team.Vr_Team, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.27-15.51.13:345][579]LogWorldPartition: Display: WorldPartition initialize took 45.411 ms
+[2026.04.27-15.51.13:345][579]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Vr_Team.Vr_Team
+[2026.04.27-15.51.13:345][579]Cmd: MAP LOAD FILE="../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/Levels/Vr_Team.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.04.27-15.51.13:428][579]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.27-15.51.13:428][579]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.04.27-15.51.13:428][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.27-15.51.13:445][579]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.27-15.51.13:447][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.04.27-15.51.13:449][579]LogWorld: UWorld::CleanupWorld for Vr_Team, bSessionEnded=true, bCleanupResources=true
+[2026.04.27-15.51.13:449][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.27-15.51.13:449][579]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/Vr_Team.Vr_Team
+[2026.04.27-15.51.13:465][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.04.27-15.51.13:479][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.04.27-15.51.13:490][579]LogAudio: Display: Audio Device (ID: 1) registered with world 'Vr_Team'.
+[2026.04.27-15.51.13:490][579]LogChaosDD: Creating Chaos Debug Draw Scene for world Vr_Team
+[2026.04.27-15.51.13:490][579]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/Vr_Team.Vr_Team'.
+[2026.04.27-15.51.13:491][579]LogWorldPartition: ULevel::OnLevelLoaded(Vr_Team)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.04.27-15.51.13:491][579]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.27-15.51.13:491][579]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/Vr_Team.Vr_Team, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.27-15.51.13:608][579]LogWorldPartition: Display: WorldPartition initialize took 117.425 ms (total: 162.836 ms)
+[2026.04.27-15.51.13:623][579]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.04.27-15.51.13:639][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.04.27-15.51.13:645][579]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.04.27-15.51.13:646][579]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.036ms to complete.
+[2026.04.27-15.52.02:015][407]LogStreaming: Display: FlushAsyncLoading(607): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.02:125][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/CCorner1.glb]
+[2026.04.27-15.52.03:633][407]LogSlate: Window 'Import Content' being destroyed
+[2026.04.27-15.52.03:661][407]LogInterchangeEngine: [Pending] Importing
+[2026.04.27-15.52.03:661][407]LogInterchangeEngine: [Pending] Importing -  (2)
+[2026.04.27-15.52.03:661][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/CCorner2.glb]
+[2026.04.27-15.52.03:662][407]LogInterchangeEngine: [Pending] Importing -  (3)
+[2026.04.27-15.52.03:662][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/CCorner3.glb]
+[2026.04.27-15.52.03:662][407]LogInterchangeEngine: [Pending] Importing -  (4)
+[2026.04.27-15.52.03:662][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/CCorner4.glb]
+[2026.04.27-15.52.03:662][407]LogInterchangeEngine: [Pending] Importing -  (5)
+[2026.04.27-15.52.03:662][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/CEdge1.glb]
+[2026.04.27-15.52.03:664][407]LogInterchangeEngine: [Pending] Importing -  (6)
+[2026.04.27-15.52.03:664][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/CEdge2.glb]
+[2026.04.27-15.52.03:664][407]LogInterchangeEngine: [Pending] Importing -  (7)
+[2026.04.27-15.52.03:664][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/CEdge3.glb]
+[2026.04.27-15.52.03:664][407]LogInterchangeEngine: [Pending] Importing -  (8)
+[2026.04.27-15.52.03:664][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/CEdge4.glb]
+[2026.04.27-15.52.03:665][407]LogInterchangeEngine: [Pending] Importing -  (9)
+[2026.04.27-15.52.03:665][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/Ceiling.glb]
+[2026.04.27-15.52.03:665][407]LogInterchangeEngine: [Pending] Importing -  (10)
+[2026.04.27-15.52.03:665][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/FCorner1.glb]
+[2026.04.27-15.52.03:665][407]LogInterchangeEngine: [Pending] Importing -  (11)
+[2026.04.27-15.52.03:665][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/FCorner2.glb]
+[2026.04.27-15.52.03:667][407]LogInterchangeEngine: [Pending] Importing -  (12)
+[2026.04.27-15.52.03:667][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/FCorner3.glb]
+[2026.04.27-15.52.03:667][407]LogInterchangeEngine: [Pending] Importing -  (13)
+[2026.04.27-15.52.03:667][407]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/FCorner4.glb]
+[2026.04.27-15.52.03:667][407]LogInterchangeEngine: [Pending] Importing -  (14)
+[2026.04.27-15.52.03:669][407]LogInterchangeEngine: [Pending] Importing -  (15)
+[2026.04.27-15.52.03:669][407]LogInterchangeEngine: [Pending] Importing -  (16)
+[2026.04.27-15.52.03:669][407]LogInterchangeEngine: [Pending] Importing -  (17)
+[2026.04.27-15.52.03:670][407]LogInterchangeEngine: [Pending] Importing -  (18)
+[2026.04.27-15.52.03:670][407]LogInterchangeEngine: [Pending] Importing -  (19)
+[2026.04.27-15.52.03:760][408]LogStreaming: Display: FlushAsyncLoading(670): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.03:760][409]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:812][409]LogStreaming: Display: FlushAsyncLoading(671): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:817][410]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.03:864][410]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.03:916][411]LogStreaming: Display: FlushAsyncLoading(696): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.03:977][412]LogStreaming: Display: FlushAsyncLoading(697): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.03:977][412]LogStaticMesh: Display: Building static mesh CCorner1 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.03:978][412]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.03:978][412]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.03:978][412]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.03:978][412]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.03:978][412]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.03:978][412]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.03:978][412]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.03:978][412]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.03:978][412]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.03:978][412]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.03:978][412]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.03:978][412]LogStaticMesh: WritePages:
+[2026.04.27-15.52.03:978][412]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.03:978][412]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.03:978][412]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.03:978][412]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.03:978][412]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.03:978][412]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.03:980][412]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/CCorner1/StaticMeshes/CCorner1.CCorner1
+[2026.04.27-15.52.04:033][413]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/CCorner1.glb]
+[2026.04.27-15.52.04:033][413]LogInterchangeEngine: [Pending] Importing -  (18)
+[2026.04.27-15.52.04:033][413]LogInterchangeEngine: [Pending] Importing -  (18)
+[2026.04.27-15.52.04:033][413]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/FEdge1.glb]
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Display: Building static mesh CCorner2 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:044][413]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:044][413]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:044][413]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:044][413]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:044][413]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:044][413]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:044][413]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:044][413]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:044][413]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:044][413]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:044][413]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:045][413]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/CCorner2/StaticMeshes/CCorner2.CCorner2
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Display: Building static mesh CCorner3 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:053][413]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:053][413]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:053][413]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:053][413]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:053][413]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:053][413]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:053][413]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:053][413]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:053][413]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:053][413]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:053][413]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:055][413]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/CCorner3/StaticMeshes/CCorner3.CCorner3
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Display: Building static mesh CCorner4 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:063][413]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:063][413]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:063][413]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:063][413]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:063][413]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:063][413]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:063][413]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:063][413]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:063][413]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:063][413]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:063][413]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:064][413]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/CCorner4/StaticMeshes/CCorner4.CCorner4
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Display: Building static mesh CEdge1 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:073][414]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:073][414]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:073][414]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:073][414]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:073][414]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:073][414]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:073][414]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:073][414]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:073][414]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:073][414]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:073][414]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:074][414]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/CEdge1/StaticMeshes/CEdge1.CEdge1
+[2026.04.27-15.52.04:300][415]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/CCorner2.glb]
+[2026.04.27-15.52.04:300][415]LogInterchangeEngine: [Pending] Importing -  (17)
+[2026.04.27-15.52.04:300][415]LogInterchangeEngine: [Pending] Importing -  (17)
+[2026.04.27-15.52.04:300][415]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/FEdge2.glb]
+[2026.04.27-15.52.04:300][415]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/CCorner3.glb]
+[2026.04.27-15.52.04:300][415]LogInterchangeEngine: [Pending] Importing -  (16)
+[2026.04.27-15.52.04:300][415]LogInterchangeEngine: [Pending] Importing -  (16)
+[2026.04.27-15.52.04:300][415]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/FEdge3.glb]
+[2026.04.27-15.52.04:302][415]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/CCorner4.glb]
+[2026.04.27-15.52.04:302][415]LogInterchangeEngine: [Pending] Importing -  (15)
+[2026.04.27-15.52.04:302][415]LogInterchangeEngine: [Pending] Importing -  (15)
+[2026.04.27-15.52.04:302][415]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/FEdge4.glb]
+[2026.04.27-15.52.04:302][415]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/CEdge1.glb]
+[2026.04.27-15.52.04:302][415]LogInterchangeEngine: [Pending] Importing -  (14)
+[2026.04.27-15.52.04:302][415]LogInterchangeEngine: [Pending] Importing -  (14)
+[2026.04.27-15.52.04:302][415]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/Floor.glb]
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Display: Building static mesh CEdge2 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:314][415]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:314][415]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:314][415]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:314][415]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:314][415]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:314][415]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:314][415]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:314][415]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:314][415]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:314][415]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:314][415]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/CEdge2/StaticMeshes/CEdge2.CEdge2
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Display: Building static mesh CEdge3 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:323][415]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:323][415]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:323][415]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:323][415]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:323][415]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:323][415]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:323][415]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:323][415]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:323][415]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:323][415]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:323][415]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/CEdge3/StaticMeshes/CEdge3.CEdge3
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Display: Building static mesh CEdge4 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:333][415]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:333][415]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:333][415]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:333][415]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:333][415]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:333][415]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:333][415]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:333][415]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:333][415]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:333][415]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:333][415]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/CEdge4/StaticMeshes/CEdge4.CEdge4
+[2026.04.27-15.52.04:440][417]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/CEdge2.glb]
+[2026.04.27-15.52.04:440][417]LogInterchangeEngine: [Pending] Importing -  (13)
+[2026.04.27-15.52.04:440][417]LogInterchangeEngine: [Pending] Importing -  (13)
+[2026.04.27-15.52.04:440][417]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/cmclau16/Downloads/WallsFloorsCeilings (2)/WallsFloorsCeilings/Wall.glb]
+[2026.04.27-15.52.04:440][417]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/CEdge3.glb]
+[2026.04.27-15.52.04:440][417]LogInterchangeEngine: [Pending] Importing -  (12)
+[2026.04.27-15.52.04:455][417]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/CEdge4.glb]
+[2026.04.27-15.52.04:455][417]LogInterchangeEngine: [Pending] Importing -  (11)
+[2026.04.27-15.52.04:465][417]LogStaticMesh: Display: Building static mesh Ceiling (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:465][417]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:465][417]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:465][417]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:465][417]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:465][417]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:465][417]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:466][417]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:466][417]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:466][417]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:466][417]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:466][417]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:466][417]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:466][417]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:466][417]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:466][417]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:466][417]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:466][417]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:466][417]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:466][417]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/Ceiling/StaticMeshes/Ceiling.Ceiling
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Display: Building static mesh FCorner1 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:476][418]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:476][418]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:476][418]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:476][418]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:476][418]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:476][418]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:476][418]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:476][418]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:476][418]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:476][418]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:476][418]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:477][418]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/FCorner1/StaticMeshes/FCorner1.FCorner1
+[2026.04.27-15.52.04:583][419]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/Ceiling.glb]
+[2026.04.27-15.52.04:583][419]LogInterchangeEngine: [Pending] Importing -  (10)
+[2026.04.27-15.52.04:607][419]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/FCorner1.glb]
+[2026.04.27-15.52.04:607][419]LogInterchangeEngine: [Pending] Importing -  (9)
+[2026.04.27-15.52.04:616][420]LogStaticMesh: Display: Building static mesh FCorner2 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:616][420]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:616][420]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:616][420]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:616][420]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:616][420]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:616][420]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:618][420]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:618][420]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:618][420]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:618][420]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:618][420]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:618][420]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:618][420]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:618][420]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:618][420]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:618][420]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:618][420]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:618][420]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:618][420]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/FCorner2/StaticMeshes/FCorner2.FCorner2
+[2026.04.27-15.52.04:657][420]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/FCorner2.glb]
+[2026.04.27-15.52.04:657][420]LogInterchangeEngine: [Pending] Importing -  (8)
+[2026.04.27-15.52.04:667][420]LogStaticMesh: Display: Building static mesh FCorner3 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:667][420]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:667][420]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:667][420]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:667][420]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:667][420]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:667][420]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:667][420]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:667][420]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:667][420]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:667][420]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:667][420]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:667][420]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:667][420]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:669][421]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:669][421]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:669][421]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:669][421]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:669][421]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:669][421]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/FCorner3/StaticMeshes/FCorner3.FCorner3
+[2026.04.27-15.52.04:747][422]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/FCorner3.glb]
+[2026.04.27-15.52.04:747][422]LogInterchangeEngine: [Pending] Importing -  (7)
+[2026.04.27-15.52.04:761][422]LogStaticMesh: Display: Building static mesh FCorner4 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:761][422]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:761][422]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:761][422]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:761][422]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:761][422]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:761][422]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:761][422]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:761][422]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:761][422]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:761][422]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:761][422]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:761][422]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:763][422]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:763][422]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:763][422]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:763][422]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:763][422]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:763][422]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:763][422]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/FCorner4/StaticMeshes/FCorner4.FCorner4
+[2026.04.27-15.52.04:809][423]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/FCorner4.glb]
+[2026.04.27-15.52.04:809][423]LogInterchangeEngine: [Pending] Importing -  (6)
+[2026.04.27-15.52.04:809][423]LogStreaming: Display: FlushAsyncLoading(709): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.04:810][424]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.04:810][424]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.04:810][424]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.04:810][424]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.04:810][424]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.04:810][424]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.04.27-15.52.04:817][424]LogStreaming: Display: FlushAsyncLoading(715): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.04:835][426]LogStreaming: Display: FlushAsyncLoading(721): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Display: Building static mesh FEdge1 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:856][427]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:856][427]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:856][427]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:856][427]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:856][427]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:856][427]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:856][427]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:856][427]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:856][427]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:856][427]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:856][427]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/FEdge1/StaticMeshes/FEdge1.FEdge1
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Display: Building static mesh FEdge2 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:866][427]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:866][427]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:866][427]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:866][427]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:866][427]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:866][427]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:866][427]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:866][427]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:866][427]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:866][427]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:866][427]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:867][427]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/FEdge2/StaticMeshes/FEdge2.FEdge2
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Display: Building static mesh FEdge3 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:875][427]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:875][427]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:875][427]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:875][427]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:875][427]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:875][427]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:875][427]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:875][427]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:875][427]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:875][427]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:875][427]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:876][427]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/FEdge3/StaticMeshes/FEdge3.FEdge3
+[2026.04.27-15.52.04:885][427]LogStaticMesh: Display: Building static mesh FEdge4 (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.04:885][427]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.04:885][427]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.04:885][427]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.04:885][427]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.04:885][427]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:885][427]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.04:885][427]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.04:885][427]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:885][427]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:885][427]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.04:885][428]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.04:885][428]LogStaticMesh: WritePages:
+[2026.04.27-15.52.04:885][428]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.04:885][428]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.04:885][428]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.04:885][428]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.04:885][428]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.04:885][428]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.04:886][428]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/FEdge4/StaticMeshes/FEdge4.FEdge4
+[2026.04.27-15.52.05:023][429]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/FEdge1.glb]
+[2026.04.27-15.52.05:023][429]LogInterchangeEngine: [Pending] Importing -  (5)
+[2026.04.27-15.52.05:025][429]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/FEdge2.glb]
+[2026.04.27-15.52.05:025][429]LogInterchangeEngine: [Pending] Importing -  (4)
+[2026.04.27-15.52.05:026][429]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/FEdge3.glb]
+[2026.04.27-15.52.05:026][429]LogInterchangeEngine: [Pending] Importing -  (3)
+[2026.04.27-15.52.05:045][429]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/FEdge4.glb]
+[2026.04.27-15.52.05:045][429]LogInterchangeEngine: [Pending] Importing -  (2)
+[2026.04.27-15.52.05:057][429]LogStaticMesh: Display: Building static mesh Floor (Required Memory Estimate: 0.026943 MB)...
+[2026.04.27-15.52.05:057][429]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 1
+[2026.04.27-15.52.05:057][429]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.05:057][429]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.05:057][429]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.05:057][429]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.05:057][429]LogStaticMesh: Fallback [0.00s], num tris: 12
+[2026.04.27-15.52.05:058][429]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.05:058][429]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.05:058][429]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.05:058][429]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2026.04.27-15.52.05:058][429]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.05:058][429]LogStaticMesh: WritePages:
+[2026.04.27-15.52.05:058][429]LogStaticMesh:   Root: GPU size: 416 bytes. 1 Pages. 416.000 bytes per page (1.270% utilization).
+[2026.04.27-15.52.05:058][429]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.05:058][429]LogStaticMesh:   Page data disk size: 588 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.05:058][429]LogStaticMesh:   Total GPU size: 416 bytes, Total disk size: 612 bytes.
+[2026.04.27-15.52.05:058][429]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.05:058][430]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.05:058][430]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor.Floor
+[2026.04.27-15.52.05:110][431]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/Floor.glb]
+[2026.04.27-15.52.05:110][431]LogInterchangeEngine: [Pending] Importing -  (1)
+[2026.04.27-15.52.05:124][432]LogStaticMesh: Display: Building static mesh Wall (Required Memory Estimate: 0.039734 MB)...
+[2026.04.27-15.52.05:124][432]LogStaticMesh: Adjacency [0.00s], tris: 20, UVs 1
+[2026.04.27-15.52.05:124][432]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.04.27-15.52.05:124][432]LogStaticMesh: Leaves [0.00s]
+[2026.04.27-15.52.05:124][432]LogStaticMesh: Reduce [0.00s]
+[2026.04.27-15.52.05:124][432]LogStaticMesh: Fallback [0.00s], num tris: 20
+[2026.04.27-15.52.05:124][432]LogStaticMesh: Fallback [0.00s], num tris: 20
+[2026.04.27-15.52.05:125][432]LogStaticMesh: ConstrainClusters:
+[2026.04.27-15.52.05:126][432]LogStaticMesh:   Input: 1 Clusters, 20 Triangles and 40 Vertices
+[2026.04.27-15.52.05:126][432]LogStaticMesh:   Output without splits: 1 Clusters, 20 Triangles and 40 Vertices
+[2026.04.27-15.52.05:126][432]LogStaticMesh:   Output with splits: 1 Clusters, 20 Triangles and 40 Vertices
+[2026.04.27-15.52.05:126][432]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.04.27-15.52.05:126][432]LogStaticMesh: WritePages:
+[2026.04.27-15.52.05:126][432]LogStaticMesh:   Root: GPU size: 600 bytes. 1 Pages. 600.000 bytes per page (1.831% utilization).
+[2026.04.27-15.52.05:126][432]LogStaticMesh:   Streaming: 0 bytes.
+[2026.04.27-15.52.05:126][432]LogStaticMesh:   Page data disk size: 784 bytes. Fixup data size: 24 bytes.
+[2026.04.27-15.52.05:126][432]LogStaticMesh:   Total GPU size: 600 bytes, Total disk size: 808 bytes.
+[2026.04.27-15.52.05:126][432]LogStaticMesh: Encode [0.00s]
+[2026.04.27-15.52.05:126][432]LogStaticMesh: NaniteBuild [0.00s]
+[2026.04.27-15.52.05:127][432]LogStaticMesh: Built static mesh [0.00s] /Game/WallsFloorsCeilings/Wall/StaticMeshes/Wall.Wall
+[2026.04.27-15.52.05:198][434]LogInterchangeEngine: Display: Interchange import completed [C:/Users/cmclau16/Do.../WallsFloorsCeilings/Wall.glb]
+[2026.04.27-15.52.05:275][434]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.04.27-15.52.05:275][434]LogInterchangeEngine: [Success] Import Done
+[2026.04.27-15.52.05:350][436]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.04.27-15.52.05:350][436]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_0'.
+[2026.04.27-15.52.05:453][440]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.04.27-15.52.05:453][440]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_1'.
+[2026.04.27-15.52.08:497][745]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/CCorner1/StaticMeshes/CCorner1.CCorner1
+[2026.04.27-15.52.08:497][745]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/CCorner1/StaticMeshes/CCorner1.CCorner1
+[2026.04.27-15.52.08:497][745]LogActorFactory: Actor Factory spawned StaticMesh /Game/WallsFloorsCeilings/CCorner1/StaticMeshes/CCorner1.CCorner1 as actor: StaticMeshActor /Game/Levels/Vr_Team.Vr_Team:PersistentLevel.StaticMeshActor_0
+[2026.04.27-15.52.15:515][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.04.27-15.52.15:516][583]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2026.04.27-15.52.15:520][583]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/CCorner1/StaticMeshes/CCorner1.CCorner1
+[2026.04.27-15.52.15:520][583]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/CCorner1/StaticMeshes/CCorner1.CCorner1
+[2026.04.27-15.52.15:522][583]LogActorFactory: Actor Factory spawned StaticMesh /Game/WallsFloorsCeilings/CCorner1/StaticMeshes/CCorner1.CCorner1 as actor: StaticMeshActor /Game/Levels/Vr_Team.Vr_Team:PersistentLevel.StaticMeshActor_UAID_2C58B98B59CC9BD502_2096744703
+[2026.04.27-15.52.57:178][259]LogDerivedDataCache: C:/Users/cmclau16/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.04.27-15.54.14:948][429]Cmd: ACTOR UNBAKEPREPIVOT
+[2026.04.27-15.54.26:896][785]Cmd: PIVOT HERE
+[2026.04.27-15.54.37:205][987]Cmd: PIVOT SNAPPED
+[2026.04.27-15.54.46:046][985]Cmd: PIVOT CENTERSELECTION
+[2026.04.27-15.54.53:978][877]Cmd: ACTOR BAKEPREPIVOT
+[2026.04.27-15.56.17:583][690]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 316.607788
+[2026.04.27-15.56.17:657][699]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.27-15.56.17:657][699]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 316.673706, Update Interval: 352.349609
+[2026.04.27-15.57.07:139][170]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor.Floor
+[2026.04.27-15.57.07:139][170]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor.Floor
+[2026.04.27-15.57.07:139][170]LogActorFactory: Actor Factory spawned StaticMesh /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor.Floor as actor: StaticMeshActor /Game/Levels/Vr_Team.Vr_Team:PersistentLevel.StaticMeshActor_1
+[2026.04.27-15.57.07:569][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.04.27-15.57.07:572][217]LogEditorActor: Deleted 0 Actors (0.024 secs)
+[2026.04.27-15.57.07:576][217]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor.Floor
+[2026.04.27-15.57.07:577][217]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor.Floor
+[2026.04.27-15.57.07:578][217]LogActorFactory: Actor Factory spawned StaticMesh /Game/WallsFloorsCeilings/Floor/StaticMeshes/Floor.Floor as actor: StaticMeshActor /Game/Levels/Vr_Team.Vr_Team:PersistentLevel.StaticMeshActor_UAID_2C58B98B59CC9CD502_1315058880
+[2026.04.27-15.57.38:337][665]Cmd: PIVOT HERE
+[2026.04.27-15.57.51:902][235]Cmd: PIVOT SNAPPED
+[2026.04.27-15.58.01:313][330]Cmd: PIVOT HERE
+[2026.04.27-15.58.16:863][ 96]Cmd: ACTOR BAKEPREPIVOT
+[2026.04.27-15.58.31:964][766]Cmd: EDIT COPY
+[2026.04.27-15.58.32:177][791]Cmd: EDIT PASTE
+[2026.04.27-15.58.34:629][ 78]Cmd: EDIT COPY
+[2026.04.27-15.58.34:837][103]Cmd: EDIT PASTE
+[2026.04.27-15.58.47:647][599]Cmd: EDIT COPY
+[2026.04.27-15.58.47:863][625]Cmd: EDIT PASTE
+[2026.04.27-15.58.50:882][981]Cmd: EDIT COPY
+[2026.04.27-15.58.51:090][  6]Cmd: EDIT PASTE
+[2026.04.27-15.59.18:852][155]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/FEdge4/StaticMeshes/FEdge4.FEdge4
+[2026.04.27-15.59.18:852][155]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/FEdge4/StaticMeshes/FEdge4.FEdge4
+[2026.04.27-15.59.18:852][155]LogActorFactory: Actor Factory spawned StaticMesh /Game/WallsFloorsCeilings/FEdge4/StaticMeshes/FEdge4.FEdge4 as actor: StaticMeshActor /Game/Levels/Vr_Team.Vr_Team:PersistentLevel.StaticMeshActor_2
+[2026.04.27-15.59.19:506][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.04.27-15.59.19:507][229]LogEditorActor: Deleted 0 Actors (0.020 secs)
+[2026.04.27-15.59.19:512][229]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/FEdge4/StaticMeshes/FEdge4.FEdge4
+[2026.04.27-15.59.19:512][229]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/WallsFloorsCeilings/FEdge4/StaticMeshes/FEdge4.FEdge4
+[2026.04.27-15.59.19:513][229]LogActorFactory: Actor Factory spawned StaticMesh /Game/WallsFloorsCeilings/FEdge4/StaticMeshes/FEdge4.FEdge4 as actor: StaticMeshActor /Game/Levels/Vr_Team.Vr_Team:PersistentLevel.StaticMeshActor_UAID_2C58B98B59CC9CD502_1446994885
+[2026.04.27-15.59.39:194][302]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.27-15.59.39:259][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Vr_Team/D/90/RMAK96A9V6COVPVB1OFQSQ
+[2026.04.27-15.59.39:259][302]LogSavePackage: Moving '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Saved/RMAK96A9V6COVPVB1OFQSQE9899AB94B9D8820110E549BE7D34862.tmp' to '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/D/90/RMAK96A9V6COVPVB1OFQSQ.uasset'
+[2026.04.27-15.59.39:265][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Vr_Team/A/49/G3QHGB9KWO8TQW7ZEVW2KK
+[2026.04.27-15.59.39:265][302]LogSavePackage: Moving '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Saved/G3QHGB9KWO8TQW7ZEVW2KK717C2114431BF6127A4527AFAFA7679B.tmp' to '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/A/49/G3QHGB9KWO8TQW7ZEVW2KK.uasset'
+[2026.04.27-15.59.39:269][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Vr_Team/0/SW/CNQDAKVQ7JDTQPHK7YP4P6
+[2026.04.27-15.59.39:269][302]LogSavePackage: Moving '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Saved/CNQDAKVQ7JDTQPHK7YP4P68A17D2204A80E410E3A7C4B67A96CB43.tmp' to '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/0/SW/CNQDAKVQ7JDTQPHK7YP4P6.uasset'
+[2026.04.27-15.59.39:273][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Vr_Team/3/LH/7WIV37RJYY9TKB0JZ31OB4
+[2026.04.27-15.59.39:273][302]LogSavePackage: Moving '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Saved/7WIV37RJYY9TKB0JZ31OB4A41E62BC4C745E6B40F09A878B54F630.tmp' to '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/3/LH/7WIV37RJYY9TKB0JZ31OB4.uasset'
+[2026.04.27-15.59.39:279][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Vr_Team/C/XR/JP6OZAS1P0NZDRXMN9UI68
+[2026.04.27-15.59.39:279][302]LogSavePackage: Moving '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Saved/JP6OZAS1P0NZDRXMN9UI68002E51014C9DF0C5DBFEB1BD649FD0C2.tmp' to '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/C/XR/JP6OZAS1P0NZDRXMN9UI68.uasset'
+[2026.04.27-15.59.39:282][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Vr_Team/A/I6/Y7FEWPNT47DT5MAI1XINNI
+[2026.04.27-15.59.39:282][302]LogSavePackage: Moving '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Saved/Y7FEWPNT47DT5MAI1XINNI4210B5D549E6EC216B9FD2B31C5F35E5.tmp' to '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/A/I6/Y7FEWPNT47DT5MAI1XINNI.uasset'
+[2026.04.27-15.59.39:287][302]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Vr_Team/7/H9/SJI9UCLVAUOC51XQECRFJB
+[2026.04.27-15.59.39:287][302]LogSavePackage: Moving '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Saved/SJI9UCLVAUOC51XQECRFJBDE54C2814F5C96F6562FF689E628977E.tmp' to '../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/7/H9/SJI9UCLVAUOC51XQECRFJB.uasset'
+[2026.04.27-15.59.39:297][302]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.875 ms
+[2026.04.27-15.59.39:347][302]LogContentValidation: Display: Starting to validate 7 assets
+[2026.04.27-15.59.39:347][302]LogContentValidation: Enabled validators:
+[2026.04.27-15.59.39:347][302]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.27-15.59.39:347][302]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.27-15.59.39:347][302]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.27-15.59.39:347][302]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.27-15.59.39:347][302]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.27-15.59.39:349][302]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.27-15.59.39:349][302]AssetCheck: /Game/Levels/Vr_Team Validating asset
+[2026.04.27-15.59.39:366][302]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 1 (upload completely sent off: 435 bytes)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 2 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 4 (shutting down connection #0)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 5 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 6 (necessary data rewind was not possible)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 7 (rewind of client reader 'cr-in' failed: 65)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDD370A33-4DB7-6681-F0DE-F89735C3358D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=742af34c4abe7bc1ee8b20a48280851b%7C8aa32006a06640edae82a234d974ff38%7C62318c6c-a468-4f43-8d6d-8970fd54c1ce&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 9 (necessary data rewind was not possible)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 10 (rewind of client reader 'cr-in' failed: 65)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 11 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 12 (IPv6: (none))
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 13 (IPv4: 54.144.188.142, 174.129.105.133, 3.208.53.205, 3.234.46.94, 32.193.249.246, 32.194.215.172, 52.6.199.106, 52.206.209.175)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 14 (  Trying 54.144.188.142:443...)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 15 (SSL reusing session)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 16 (ALPN: curl offers http/1.1)
+[2026.04.27-16.00.23:742][672]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 17 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 22 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 23 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 24 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 25 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 26 (ALPN: server accepted http/1.1)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 27 (Server certificate:)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 28 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 29 ( start date: Jan  3 00:00:00 2026 GMT)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 30 ( expire date: Feb  1 23:59:59 2027 GMT)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 31 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 32 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M04)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 33 ( SSL certificate verify ok.)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 34 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 35 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 36 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 37 (Connected to datarouter.ol.epicgames.com (54.144.188.142) port 443)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 38 (using HTTP/1.x)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 39 (client read function EOF fail, only 0/435 of needed bytes read)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700: libcurl info message cache 40 (closing connection #1)
+[2026.04.27-16.00.23:742][673]LogHttp: Warning: 000001CC0556E700 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDD370A33-4DB7-6681-F0DE-F89735C3358D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=742af34c4abe7bc1ee8b20a48280851b%7C8aa32006a06640edae82a234d974ff38%7C62318c6c-a468-4f43-8d6d-8970fd54c1ce&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 6.98s
+>>>>>>> parent of 4e1563a (WORKED on level)
