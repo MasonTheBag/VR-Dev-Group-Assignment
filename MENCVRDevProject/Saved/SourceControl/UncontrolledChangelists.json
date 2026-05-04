@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< Updated upstream
 				"C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/3/BO/XZGIEQSDTE4XMV98WYC1Q2.uasset",
 				"C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/5/H4/2EALKXGSQ5TTVXKK2Y6IV3.uasset",
 				"C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/C/QR/FOGOQZGF77CL8MZHMEAN4G.uasset",
@@ -139,6 +140,10 @@
 				"C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/4/VD/MWZBGARGNB5O5TD7M0VFO5.uasset",
 				"C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/C/UQ/9NOM2ABV24UW6EN4RRQ4F0.uasset",
 				"C:/Users/cmclau16/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/__ExternalActors__/Levels/Vr_Team/A/41/N4P86VJY50O82TDYJYD94V.uasset"
+=======
+				"C:/Users/mboyce5/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/Blueprints/DoorOpening.uasset",
+				"C:/Users/mboyce5/Documents/GitHub/VR-Dev-Group-Assignment/MENCVRDevProject/Content/Blueprints/Spawn.uasset"
+>>>>>>> Stashed changes
 			]
 		}
 	]
